@@ -1,3 +1,4 @@
+## ------ Ejercicio: Lista de Estudiantes ------
 def MostrarMenu():
     print("\n ------- MENU DE ACCIONES -------\n")
     print("1. Ver estudiantes")
@@ -159,3 +160,4 @@ while r==True:
         apellidos.pop(int(est)-1)
     elif opc=="5":
         r=False
+## Desarrollado por : Dante Salamanca / T.I.: 1.097.498.423
