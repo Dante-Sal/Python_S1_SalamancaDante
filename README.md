@@ -4,7 +4,7 @@ A continuación veremos el proyecto dedicado a las actividades realizadas durant
 
 |Tabla de contenidos|
 |--|
-|**1. [Ejercicios Filtro (Introducción a la programación) --> Python](#EjerciciosFiltro)**|
+|<br>**1. [Ejercicios Filtro (Introducción a la programación) --> Python](#EjerciciosFiltro)**<br><br>|
 |1.1. [Ejercicio #1: Números divisibles entre 3 y 7](#EjerciciosFiltroEjercicio1)|
 |1.2. [Ejercicio #2: Sumatoria de la serie numérica 1 - 1/2 + 1/3 - 1/4 + ... +- 1/N](#EjerciciosFiltroEjercicio2)|
 |1.3. [Ejercicio #3: Enteros que cumplan la condición](#EjerciciosFiltroEjercicio3)|
@@ -12,7 +12,7 @@ A continuación veremos el proyecto dedicado a las actividades realizadas durant
 |1.5. [Ejercicio #5: Número faltante en la serie](#EjerciciosFiltroEjercicio5)|
 |1.6. [Ejercicio #6: Empresa ACME](#EjerciciosFiltroEjercicio6)|
 |1.7. [Ejercicio #7: Números amigos](#EjerciciosFiltroEjercicio7)|
-|**2. [Python Workshop (1-5)](#PythonWorkshop)**|
+|<br>**2. [Python Workshop (1-5)](#PythonWorkshop)**<br><br>|
 |2.1. [Ejercicio 1: Conversor de temperatura](#PythonWorkshopEjercicio1)|
 |2.2. [Ejercicio 2: Calculadora de interés simple y compuesto](#PythonWorkshopEjercicio2)|
 |2.3. [Ejercicio 3: Clasificador de números](#PythonWorkshopEjercicio3)|
