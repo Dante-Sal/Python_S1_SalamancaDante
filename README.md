@@ -11,7 +11,7 @@ A continuación veremos el proyecto dedicado a las actividades realizadas durant
 |1.4. [Ejercicio #4: Mayor y menor de 10 números](#EjerciciosFiltroEjercicio4)|
 |1.5. [Ejercicio #5: Número faltante en la serie](#EjerciciosFiltroEjercicio5)|
 |1.6. [Ejercicio #6: Empresa ACME](#EjerciciosFiltroEjercicio6)|
-|8. [Clic](#Sección8)|
+|1.7. [Ejercicio #7: Números amigos](#EjerciciosFiltroEjercicio7)|
 |9. [Clic](#Sección9)|
 |10. [Clic](#Sección10)|
 |11. [Clic](#Sección11)|
@@ -153,7 +153,25 @@ Tras calcular estos datos, se le añade cada uno a su respectivo total mediante 
 
 Finalmente se calculan los promedios de salarios brutos y netos (*línea 35* / *línea 36*), se muestran / **print** los totales de salarios brutos, netos y descuentos (EPS y pensión) (*línea 37* a la *línea 41*), el empleado que más gana con el correspondiente salario neto (*línea 43* / *línea 44*), el empleado que menos gana con su salario neto (*línea 46* / *línea 47*) y los promedios de brutos y netos (*línea 49* / *línea 50*).
 
-<a name="Sección8"></a>
+<a name="EjerciciosFiltroEjercicio7"></a>
+
+### Ejercicio #7: Números amigos
+
+#### -- Objetivo --
+
+Mostrar en pantalla si dos números enteros positivos n1 y n2 son amigos. Los números amigos son pares de números enteros positivos en los cuales la suma de los divisores propios de cada número es igual al otro número. En otras palabras, dos números amigos cumplen la condición de que la suma de los divisores propios de uno de ellos es igual al otro número, y viceversa. Por ejemplo, el par de números (220, 284) es un par de números amigos. Los divisores propios de 220 son 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 y 110. Si sumamos estos números, obtenemos 284, que es el segundo número del par. Por otro lado, los divisores propios de 284 son 1, 2, 4, 71 y 142, y si los sumamos, obtenemos 220, que es el primer número del par.
+
+#### -- Correcta ejecución del archivo --
+
+Una vez descargado el archivo titulado *"Ejercicio#7_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#7_FiltroIntro_SalamancaDante.py*
+
+> [!NOTE]
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#7_FiltroIntro_SalamancaDante.py*
+
+#### -- Lógica del programa --
+
+Para empezar, el programa le solicita al usuario dos números para checar si son amigos o no (*n1* / *n2*) (*línea 2* / *línea 3* / *línea 4*) e inicializa dos variables que representarán la suma de los divisores de *n1* y *n2*, respectivamente *sum1* y *sum2* (*línea 5* / *línea 6*). En los siguientes bucles, se realiza una revisión a través de todos los números desde 1 hasta *n1* (*línea 7*) y desde 1 hasta *n2* (*línea 10*), identificando aquellos números que puedan dividir, sin dar residuo, a *n1* (*línea 8*) y a *n2* (*línea 11*) y añadiéndolos a las variables declaradas en las *línea 5* / *línea 6* (*línea 9* / *línea 12*). Una vez finalizados ambos bucles, si / **if** la suma de los divisores de *n1* es igual a *n2* y / **and** la suma de los divisores de *n2* es igual a *n1*, entonces se imprimirá en pantalla / **print** el mensaje *"Los números son amigos..."* (*línea 13* / *línea 14*); caso contrario / **else**, se imprimirá / **print** el mensaje  *"Los números no son amigos..."* (*línea 15* / *línea 16*)
+
 <a name="Sección9"></a>
 <a name="Sección10"></a>
 <a name="Sección11"></a>
