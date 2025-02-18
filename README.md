@@ -132,7 +132,7 @@ La serie dada tiene como base los números 1 y 1; partiendo de ahí, para hallar
 
 #### -- Objetivo --
 
-La empresa ACME desea calcular el valor de la nómina de *N* empleados (estos *N* empleados son ingresados por el usuario), tanto el sueldo bruto como el sueldo neto. El sueldo bruto se calcula a partir del valor de la hora y la cantidad de horas trabajadas. A esto se le descuenta el valor de la EPS que es el 4%, el valor de la pensión que es el 4%. El sueldo neto es el sueldo bruto menos los descuentos. Por cada empleado se quiere mostrar, el valor del sueldo bruto, cada uno de los descuentos y el valor del sueldo neto. Para este ejercicio el valor de la hora es $20.000.
+La empresa ACME desea calcular el valor de la nómina de *N* empleados (estos *N* empleados son ingresados por el usuario), tanto el sueldo bruto como el sueldo neto. El sueldo bruto se calcula a partir del valor de la hora y la cantidad de horas trabajadas. A esto se le descuenta el valor de la EPS que es el 4%, el valor de la pensión que es el 4%. El sueldo neto es el sueldo bruto menos los descuentos. Por cada empleado se quiere mostrar, el valor del sueldo bruto, cada uno de los descuentos y el valor del sueldo neto. Para este ejercicio el valor de la hora es $20000.
 
 Al final se debe mostrar una estadística con los totales de los salarios brutos, EPS, pensión y salarios netos. Luego mostrar el empleado que más gana en salario neto (nombre y salario neto), el empleado que menos gana en salario neto (nombre y salario neto) y los promedios de sueldos brutos y sueldos netos.
 
@@ -180,7 +180,22 @@ En este apartado se realizaron 5 de los 11 ejercicios que compusieron el taller 
 
 <a name="PythonWorkshopEjercicio1"></a>
 
+### Ejercicio 1: Conversor de temperatura
 
+#### -- Objetivo --
+
+Crear un programa que, a través de una función, pueda convertir grados Celsius a Fahrenheit y viceversa.
+
+#### -- Correcta ejecución del archivo --
+
+Una vez descargado el archivo titulado *"Ejercicio1_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio1_SalamancaDante.py```
+
+> [!NOTE]
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio1_SalamancaDante.py```
+
+#### -- Lógica del programa --
+
+En una primera instancia, se crea la función que convierta de Celsius a Fahrenheit (*línea 2*), aplicando la metodología del desempaquetamiento: el primer valor del arreglo se alojará en la variable *f* (*línea 3*)
 
 <a name="PythonWorkshopEjercicio2"></a>
 <a name="PythonWorkshopEjercicio3"></a>
