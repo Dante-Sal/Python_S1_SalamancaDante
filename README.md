@@ -195,7 +195,7 @@ Una vez descargado el archivo titulado *"Ejercicio1_SalamancaDante.py"*, se debe
 
 #### -- Lógica del programa --
 
-En una primera instancia, se crea la función que convierta de Celsius a Fahrenheit (*línea 2*), aplicando la metodología del desempaquetamiento: el primer valor del arreglo se alojará en la variable *f* (*línea 3*)
+En una primera instancia, se crea la función que convierta de Celsius a Fahrenheit (*línea 2*), aplicando la metodología del desempaquetamiento: el primer valor del arreglo (que representa el resultado de la conversión de los grados Celsius ingresados por el usuario [*cls*] a Fahrenheit, aproximado a dos decimales con la función **round**) se alojará en la variable *f*, mientras que el segundo valor del arreglo (que representa el resultado de la conversión de los grados Fahrenheit ingresados por el usuario [*fheit*] a Celsius, aproximado a dos decimales con la función **round**) se alojará en la variable *c* (*línea 3*).
 
 <a name="PythonWorkshopEjercicio2"></a>
 <a name="PythonWorkshopEjercicio3"></a>
