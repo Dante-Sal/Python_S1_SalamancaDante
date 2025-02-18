@@ -10,7 +10,7 @@ A continuación veremos el proyecto dedicado a las actividades realizadas durant
 |1.3. [Ejercicio #3: Enteros que cumplan la condición](#EjerciciosFiltroEjercicio3)|
 |1.4. [Ejercicio #4: Mayor y menor de 10 números](#EjerciciosFiltroEjercicio4)|
 |1.5. [Ejercicio #5: Número faltante en la serie](#EjerciciosFiltroEjercicio5)|
-|7. [Clic](#Sección7)|
+|1.6. [Ejercicio #6: Empresa ACME](#EjerciciosFiltroEjercicio6)|
 |8. [Clic](#Sección8)|
 |9. [Clic](#Sección9)|
 |10. [Clic](#Sección10)|
@@ -126,7 +126,33 @@ Una vez descargado el archivo titulado *"Ejercicio#5_FiltroIntro_SalamancaDante.
 
 La serie dada tiene como base los números 1 y 1; partiendo de ahí, para hallar el tercer término se deben sumar los dos anteriores; para hallar el cuarto se deben restar los dos anteriores; para hallar el quinto se suman los dos anteriores; para el sexto, se restan; etc. Teniendo eso en cuenta, se inicializan dos variables llamadas *a* y *b* en 1 (*línea 2* / *línea 3*). Acto seguido se comienza un bucle **for** que irá hasta el séptimo término de la serie (es decir, se iterará 7 veces) (*línea 4*). En cada repetición se mostrará / **print** el valor de la variable *a* en pantalla (*línea 5*) y se verificará si / **if** nos encontramos en una iteración de índice par o impar (*línea 6* / *línea 8*): en el primer caso se asignará la suma de *a* y *b* a una tercera variable *c* (*línea 7*); en el segundo caso se asigna la resta de *a* y *b* a la variable *c* (*línea 9*). Finalmente, sin importar el índice de la iteración actual, el valor de *b* pasa a asignarse a la variable *a* y el valor de *c* pasa a asignarse a la variable *b* (*línea 10* / *línea 11*).
 
-<a name="Sección7"></a>
+<a name="EjerciciosFiltroEjercicio6"></a>
+
+### Ejercicio #6: Empresa ACME
+
+#### -- Objetivo --
+
+La empresa ACME desea calcular el valor de la nómina de *N* empleados (estos *N* empleados son ingresados por el usuario), tanto el sueldo bruto como el sueldo neto. El sueldo bruto se calcula a partir del valor de la hora y la cantidad de horas trabajadas. A esto se le descuenta el valor de la EPS que es el 4%, el valor de la pensión que es el 4%. El sueldo neto es el sueldo bruto menos los descuentos. Por cada empleado se quiere mostrar, el valor del sueldo bruto, cada uno de los descuentos y el valor del sueldo neto. Para este ejercicio el valor de la hora es $20.000.
+
+Al final se debe mostrar una estadística con los totales de los salarios brutos, EPS, pensión y salarios netos. Luego mostrar el empleado que más gana en salario neto (nombre y salario neto), el empleado que menos gana en salario neto (nombre y salario neto) y los promedios de sueldos brutos y sueldos netos.
+
+#### -- Correcta ejecución del archivo --
+
+Una vez descargado el archivo titulado *"Ejercicio#6_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#6_FiltroIntro_SalamancaDante.py*
+
+> [!NOTE]
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#6_FiltroIntro_SalamancaDante.py*
+
+#### -- Lógica del programa --
+
+En primer lugar, se declaran las variables que alojarán los totales (*línea 2* / *línea 3* / *línea 4*). Justo entonces se le pide al usuario / **input** la cantidad de empleados que trabajan en la empresa (*N*) (*línea 5* / *línea 6*), para luego usar dicha variable como tope para el bucle **for** iniciado en la *línea 7*.
+
+En cada iteración del bucle se le pide al usuario que ingrese el nombre del empleado, las horas trabajadas y se calcula el sueldo bruto y neto a través de la multiplicación de las horas trabajadas por 20000 (es decir, el valor de la hora) y la resta del descuento (el 4% del sueldo bruto) por dos (dado que son dos descuentos que valen exactamente lo mismo), respectivamente (*línea 8* a la *línea 14*).
+
+Tras calcular estos datos, se le añade cada uno a su respectivo total mediante el uso del operador de asignación **+=** (*línea 15* / *línea 16* / *línea 17*). En las siguientes 6 líneas (*línea 18* a la *línea 23*) se muestran / **print** los datos recaudados recién, en pantalla. Siguiendo la misma lógica del Ejercicio #4 (*"Mayor y menor de 10 números"*), se halla el sueldo neto mayor, con el nombre de su correspondiente empleado y el menor: si / **if** es la primera iteración del **for** se les asigna al sueldo mayor (*sueldoMax*) y a su respectivo nombre (*nombreMax*) y al sueldo menor (*sueldoMin*) y a su respectivo nombre (*nombreMin*), los valores que tengan el nombre y el sueldo neto en ese momento (*nombre* / *sueldoNeto*) (*línea 24* a la *línea 28*); si / **if** el sueldo neto es mayor al sueldo mayor, entonces será el nuevo mayor (*línea 29* / *línea 30* / *línea 31*); y si / **if** el sueldo neto es menor que el sueldo menor, este será el nuevo menor (*línea 32* / *línea 33* / *línea 34*).
+
+Finalmente se calculan los promedios de salarios brutos y netos (*línea 35* / *línea 36*), se muestran / **print** los totales de salarios brutos, netos y descuentos (EPS y pensión) (*línea 37* a la *línea 41*), el empleado que más gana con el correspondiente salario neto (*línea 43* / *línea 44*), el empleado que menos gana con su salario neto (*línea 46* / *línea 47*) y los promedios de brutos y netos (*línea 49* / *línea 50*).
+
 <a name="Sección8"></a>
 <a name="Sección9"></a>
 <a name="Sección10"></a>
