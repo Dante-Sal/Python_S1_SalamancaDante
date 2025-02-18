@@ -12,12 +12,12 @@ A continuación veremos el proyecto dedicado a las actividades realizadas durant
 |1.5. [Ejercicio #5: Número faltante en la serie](#EjerciciosFiltroEjercicio5)|
 |1.6. [Ejercicio #6: Empresa ACME](#EjerciciosFiltroEjercicio6)|
 |1.7. [Ejercicio #7: Números amigos](#EjerciciosFiltroEjercicio7)|
-|9. [Clic](#Sección9)|
-|10. [Clic](#Sección10)|
-|11. [Clic](#Sección11)|
-|12. [Clic](#Sección12)|
-|13. [Clic](#Sección13)|
-|14. [Clic](#Sección14)|
+|2. [Python Workshop (1-5)](#PythonWorkshop)|
+|2.1. [Ejercicio 1: Conversor de temperatura](#PythonWorkshopEjercicio1)|
+|2.2. [Ejercicio 2: Calculadora de interés simple y compuesto](#PythonWorkshopEjercicio2)|
+|2.3. [Ejercicio 3: Clasificador de números](#PythonWorkshopEjercicio3)|
+|2.4. [Ejercicio 4: Generador de contraseñas](#PythonWorkshopEjercicio4)|
+|2.5. [Ejercicio 5: Detector de palíndromos](#PythonWorkshopEjercicio5)|
 |15. [Clic](#Sección15)|
 |16. [Clic](#Sección16)|
 
@@ -25,7 +25,7 @@ A continuación veremos el proyecto dedicado a las actividades realizadas durant
 
 ## Ejercicios Filtro (Introducción a la programación) --> Python
 
-En este apartado se realizaron los 7 ejercicios que compusieron el filtro del módulo *"Introducción a la Programación"*; pero en formato python, aplicando las funciones elementales de este lenguaje de programación tan versátil. Aquí se encontraran actividades que involucraron cálculos combinados (con operadores aritméticos y lógicos), bucles **for** y **while**, además de un sencillo acercamiento a algunos conceptos básicos de funciones (**def**, **return**, parámetros, etc.).
+En este apartado se realizaron los 7 ejercicios que compusieron el filtro del módulo *"Introducción a la Programación"*; pero en formato python, aplicando las funciones elementales de este lenguaje de programación tan versátil. Aquí se encontrarán actividades que involucraron cálculos combinados (con operadores aritméticos y lógicos), bucles **for** y **while**, además de un sencillo acercamiento a algunos conceptos básicos de funciones (**def**, **return**, parámetros, etc.).
 
 <a name="EjerciciosFiltroEjercicio1"></a>
 
@@ -37,10 +37,10 @@ Crear un programa que, desde el 1 hasta el 1000, genere los números divisibles 
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#1_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#1_FiltroIntro_SalamancaDante.py*
+Una vez descargado el archivo titulado *"Ejercicio#1_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#1_FiltroIntro_SalamancaDante.py```
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#1_FiltroIntro_SalamancaDante.py*
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#1_FiltroIntro_SalamancaDante.py```
 
 #### -- Lógica del programa --
 
@@ -56,10 +56,10 @@ Crear un programa que, dada una cantidad de términos, genere el resultado de la
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#2_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#2_FiltroIntro_SalamancaDante.py*
+Una vez descargado el archivo titulado *"Ejercicio#2_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#2_FiltroIntro_SalamancaDante.py```
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#2_FiltroIntro_SalamancaDante.py*
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#2_FiltroIntro_SalamancaDante.py```
 
 #### -- Lógica del programa --
 
@@ -75,10 +75,10 @@ Crear un programa que muestre en pantalla todos los enteros positivos *P* que cu
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#3_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#3_FiltroIntro_SalamancaDante.py*
+Una vez descargado el archivo titulado *"Ejercicio#3_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#3_FiltroIntro_SalamancaDante.py```
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#3_FiltroIntro_SalamancaDante.py*
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#3_FiltroIntro_SalamancaDante.py```
 
 #### -- Lógica del programa --
 
@@ -94,10 +94,10 @@ Crear un programa que tome diez números ingresados por el usuario y devuelva el
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#4_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#4_FiltroIntro_SalamancaDante.py*
+Una vez descargado el archivo titulado *"Ejercicio#4_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#4_FiltroIntro_SalamancaDante.py```
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#4_FiltroIntro_SalamancaDante.py*
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#4_FiltroIntro_SalamancaDante.py```
 
 #### -- Lógica del programa --
 
@@ -117,10 +117,10 @@ Crear un programa que imprima en pantalla la siguiente serie, además de su sigu
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#5_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#5_FiltroIntro_SalamancaDante.py*
+Una vez descargado el archivo titulado *"Ejercicio#5_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#5_FiltroIntro_SalamancaDante.py```
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#5_FiltroIntro_SalamancaDante.py*
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#5_FiltroIntro_SalamancaDante.py```
 
 #### -- Lógica del programa --
 
@@ -138,10 +138,10 @@ Al final se debe mostrar una estadística con los totales de los salarios brutos
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#6_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#6_FiltroIntro_SalamancaDante.py*
+Una vez descargado el archivo titulado *"Ejercicio#6_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#6_FiltroIntro_SalamancaDante.py```
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#6_FiltroIntro_SalamancaDante.py*
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#6_FiltroIntro_SalamancaDante.py```
 
 #### -- Lógica del programa --
 
@@ -163,20 +163,28 @@ Mostrar en pantalla si dos números enteros positivos n1 y n2 son amigos. Los n�
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#7_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: *python3 Ejercicio#7_FiltroIntro_SalamancaDante.py*
+Una vez descargado el archivo titulado *"Ejercicio#7_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#7_FiltroIntro_SalamancaDante.py```
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: *python Ejercicio#7_FiltroIntro_SalamancaDante.py*
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#7_FiltroIntro_SalamancaDante.py```
 
 #### -- Lógica del programa --
 
 Para empezar, el programa le solicita al usuario dos números para checar si son amigos o no (*n1* / *n2*) (*línea 2* / *línea 3* / *línea 4*) e inicializa dos variables que representarán la suma de los divisores de *n1* y *n2*, respectivamente *sum1* y *sum2* (*línea 5* / *línea 6*). En los siguientes bucles, se realiza una revisión a través de todos los números desde 1 hasta *n1* (*línea 7*) y desde 1 hasta *n2* (*línea 10*), identificando aquellos números que puedan dividir, sin dar residuo, a *n1* (*línea 8*) y a *n2* (*línea 11*) y añadiéndolos a las variables declaradas en las *línea 5* / *línea 6* (*línea 9* / *línea 12*). Una vez finalizados ambos bucles, si / **if** la suma de los divisores de *n1* es igual a *n2* y / **and** la suma de los divisores de *n2* es igual a *n1*, entonces se imprimirá en pantalla / **print** el mensaje *"Los números son amigos..."* (*línea 13* / *línea 14*); caso contrario / **else**, se imprimirá / **print** el mensaje  *"Los números no son amigos..."* (*línea 15* / *línea 16*)
 
-<a name="Sección9"></a>
-<a name="Sección10"></a>
-<a name="Sección11"></a>
-<a name="Sección12"></a>
-<a name="Sección13"></a>
-<a name="Sección14"></a>
+<a name="PythonWorkshop"></a>
+
+## Python Workshop (1-5)
+
+En este apartado se realizaron 5 de los 11 ejercicios que compusieron el taller de python *"Python Workshop"*, aplicando algunas funciones más avanzadas de este lenguaje. Aquí se encontrarán actividades que involucraron cálculos combinados (con operadores aritméticos y lógicos), bucles **for** y **while**, además de un más profundo acercamiento a los cuatro tipos de funciones, la importación de librerías como **random**, el manejo de arreglos, verificaciones con bucles **while** y métodos de cadenas.
+
+<a name="PythonWorkshopEjercicio1"></a>
+
+
+
+<a name="PythonWorkshopEjercicio2"></a>
+<a name="PythonWorkshopEjercicio3"></a>
+<a name="PythonWorkshopEjercicio4"></a>
+<a name="PythonWorkshopEjercicio5"></a>
 <a name="Sección15"></a>
 <a name="Sección16"></a>
