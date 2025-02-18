@@ -204,6 +204,24 @@ Este bloque, en esencia, pide los datos necesarios para correr correctamente la 
 En caso de que el usuario hubiera pedido convertir Fahrenheit a Celsius (*línea 13*), se ejecuta el bloque de código de la *línea 14* a la *línea 17*. Este bloque pide los datos necesarios para correr correctamente la función (los grados Fahrenheit a convertir) (*línea 14*); corrobora que este número, al pasarlo a Celsius, no sea menor al 0 absoluto  (-273.15°C), pidiéndolo nuevamente en caso de cumplir con esta condición (*línea 15* / *línea 16*); y mostrando / **print** el resultado de la conversión en pantalla llamando a la función, pasándole el valor ingresado como segundo parámetro (*fheit*), dejando el primer parámetro (*cls*), que no necesitamos, en 0 y accediendo al segundo elemento del arreglo que retorna (el resultado de convertir Fahrenheit a Celsius) (*línea 17*).
 
 <a name="PythonWorkshopEjercicio2"></a>
+
+### Ejercicio 2: Calculadora de interés simple y compuesto
+
+#### -- Objetivo --
+
+Crear un programa que, a través de una función, pueda calcular interés simple y compuesto.
+
+#### -- Correcta ejecución del archivo --
+
+Una vez descargado el archivo titulado *"Ejercicio2_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio2_SalamancaDante.py```
+
+> [!NOTE]
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio2_SalamancaDante.py```
+
+#### -- Lógica del programa --
+
+Las bases que sostienen este programa son realmente similares a las que sostienen al planteado en el Ejercicio 1 (*"Conversor de temperatura"*), ya que en un primer momento se genera lo que será la función raíz de este software, usando la metodología del desempaquetamiento para alojar cada fórmula (interés simple y compuesto) en una variable diferente y retornar un arreglo con estas variables (*línea 2* / *línea 3* / *línea 4*). En seguida se pide / **input** qué tipo de interés desea calcular el usuario (*línea 5*), se verifica que la entrada sea válida (*línea 6* / *línea 7*) y, en caso de que la entrada indique que el usuario precisa calcular interés simple (*línea 8*), se le piden / **input** los datos necesarios (*línea 9* / *línea 10* / *línea 11*), se asegura de que los datos sean válidos (no números negativos o 0) (*línea 12* a la *línea 15*) y muestra / **print** el resultado en pantalla llamando a la función y accediendo al valor necesitado del arreglo (en este caso s) (*línea 16*); caso contrario / **else** (*línea 17*), si el usuario pide interés compuesto, se le solicitan / **input** los datos necesarios (*línea 18* a la *línea 21*), se asegura de que los datos sean válidos (no números negativos o 0) (*línea 22* a la *línea 26*) y muestra / **print** el resultado en pantalla llamando a la función y accediendo al valor necesitado del arreglo (en este caso c) (*línea 27*).
+
 <a name="PythonWorkshopEjercicio3"></a>
 <a name="PythonWorkshopEjercicio4"></a>
 <a name="PythonWorkshopEjercicio5"></a>
