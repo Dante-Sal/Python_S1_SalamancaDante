@@ -37,10 +37,10 @@ Crear un programa que, desde el 1 hasta el 1000, genere los números divisibles 
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#1_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#1_FiltroIntro_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio#1_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio#1_FiltroIntro_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#1_FiltroIntro_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio#1_FiltroIntro_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
@@ -56,10 +56,10 @@ Crear un programa que, dada una cantidad de términos, genere el resultado de la
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#2_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#2_FiltroIntro_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio#2_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio#2_FiltroIntro_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#2_FiltroIntro_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio#2_FiltroIntro_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
@@ -75,10 +75,10 @@ Crear un programa que muestre en pantalla todos los enteros positivos *P* que cu
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#3_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#3_FiltroIntro_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio#3_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio#3_FiltroIntro_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#3_FiltroIntro_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio#3_FiltroIntro_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
@@ -94,10 +94,10 @@ Crear un programa que tome diez números ingresados por el usuario y devuelva el
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#4_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#4_FiltroIntro_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio#4_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio#4_FiltroIntro_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#4_FiltroIntro_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio#4_FiltroIntro_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
@@ -117,10 +117,10 @@ Crear un programa que imprima en pantalla la siguiente serie, además de su sigu
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#5_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#5_FiltroIntro_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio#5_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio#5_FiltroIntro_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#5_FiltroIntro_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio#5_FiltroIntro_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
@@ -138,10 +138,10 @@ Al final se debe mostrar una estadística con los totales de los salarios brutos
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#6_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#6_FiltroIntro_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio#6_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio#6_FiltroIntro_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#6_FiltroIntro_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio#6_FiltroIntro_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
@@ -163,10 +163,10 @@ Mostrar en pantalla si dos números enteros positivos n1 y n2 son amigos. Los n�
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio#7_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio#7_FiltroIntro_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio#7_FiltroIntro_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio#7_FiltroIntro_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio#7_FiltroIntro_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio#7_FiltroIntro_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
@@ -188,14 +188,14 @@ Crear un programa que, a través de una función, pueda convertir grados Celsius
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio1_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio1_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio1_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio1_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio1_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio1_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
-En una primera instancia, se crea la función que convierta de Celsius a Fahrenheit (*línea 2*), aplicando la metodología del desempaquetamiento: el primer valor del arreglo (que representa el resultado de la conversión de los grados Celsius ingresados por el usuario [*cls*] a Fahrenheit, aproximado a dos decimales con **round**) se alojará en la variable *f*, mientras que el segundo valor del arreglo (que representa el resultado de la conversión de los grados Fahrenheit ingresados por el usuario [*fheit*] a Celsius, aproximado a dos decimales con **round**) se alojará en la variable *c* (*línea 3*). Justo entonces se retorna un arreglo con los grados Fahrenheit y Celsius calculados dentro de la función (*línea 4*).
+En una primera instancia, se crea la función que convierta de Celsius a Fahrenheit (*línea 2*), aplicando la metodología del desempaquetamiento: el primer valor del arreglo (que representa el resultado de la conversión de los grados Celsius ingresados por el usuario [*cls*] a Fahrenheit, aproximado a dos decimales con **round**) se alojará en la variable *f*, mientras que el segundo valor del arreglo (que representa el resultado de la conversión de los grados Fahrenheit ingresados por el usuario [*fheit*] a Celsius, aproximado a dos decimales con **round**) se alojará en la variable *c* (*línea 3*). Justo entonces se retorna / **return** un arreglo con los grados Fahrenheit y Celsius calculados dentro de la función (*línea 4*).
 
 Se le solicita al usuario que ingrese "C" en caso de que quiera convertir grados Celsius a Fahrenheit o "F" en caso contrario (*línea 5*). Se verifica si el dato ingresado es acorde con alguna de las dos opciones posibles ("C" / "F") a través de un bucle **while**, que se repite hasta que el valor ingresado por el usuario sea, o bien "C" o bien "F" (*línea 6* / *línea 7*). Luego, se revisa si / **if** la opción escrita es "C" que, en caso de serlo, ejecutará el bloque de código de la *línea 9* a la *línea 12* (*línea 8*).
 
@@ -213,14 +213,14 @@ Crear un programa que, a través de una función, pueda calcular interés simple
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio2_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio2_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio2_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio2_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio2_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio2_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
-Las bases que sostienen este programa son realmente similares a las que sostienen al planteado en el Ejercicio 1 (*"Conversor de temperatura"*), ya que en un primer momento se genera lo que será la función raíz de este software, usando la metodología del desempaquetamiento para alojar cada fórmula (interés simple y compuesto) en una variable diferente y retornar un arreglo con estas variables (*línea 2* / *línea 3* / *línea 4*). En seguida se pide / **input** qué tipo de interés desea calcular el usuario (*línea 5*), se verifica que la entrada sea válida (*línea 6* / *línea 7*) y, en caso de que la entrada indique que el usuario precisa calcular interés simple (*línea 8*), se le piden / **input** los datos necesarios (*línea 9* / *línea 10* / *línea 11*), se asegura de que los datos sean válidos (no números negativos o 0) (*línea 12* a la *línea 15*) y muestra / **print** el resultado en pantalla llamando a la función y accediendo al valor necesitado del arreglo (en este caso s) (*línea 16*); caso contrario / **else** (*línea 17*), si / **if** el usuario pide interés compuesto, se le solicitan / **input** los datos necesarios (*línea 18* a la *línea 21*), se asegura de que los datos sean válidos (no números negativos o 0) (*línea 22* a la *línea 26*) y muestra / **print** el resultado en pantalla llamando a la función y accediendo al valor necesitado del arreglo (en este caso c) (*línea 27*).
+Las bases que sostienen este programa son realmente similares a las que sostienen al planteado en el Ejercicio 1 (*"Conversor de temperatura"*), ya que en un primer momento se genera lo que será la función raíz de este software, usando la metodología del desempaquetamiento para alojar cada fórmula (interés simple y compuesto) en una variable diferente y retornar / **return** un arreglo con estas variables (*línea 2* / *línea 3* / *línea 4*). En seguida se pide / **input** qué tipo de interés desea calcular el usuario (*línea 5*), se verifica que la entrada sea válida (*línea 6* / *línea 7*) y, en caso de que la entrada indique que el usuario precisa calcular interés simple (*línea 8*), se le piden / **input** los datos necesarios (*línea 9* / *línea 10* / *línea 11*), se asegura de que los datos sean válidos (no números negativos o 0) (*línea 12* a la *línea 15*) y muestra / **print** el resultado en pantalla llamando a la función y accediendo al valor necesitado del arreglo (en este caso s) (*línea 16*); caso contrario / **else** (*línea 17*), si / **if** el usuario pide interés compuesto, se le solicitan / **input** los datos necesarios (*línea 18* a la *línea 21*), se asegura de que los datos sean válidos (no números negativos o 0) (*línea 22* a la *línea 26*) y muestra / **print** el resultado en pantalla llamando a la función y accediendo al valor necesitado del arreglo (en este caso c) (*línea 27*).
 
 <a name="PythonWorkshopEjercicio3"></a>
 
@@ -232,10 +232,10 @@ Crear un programa que, a través de una función, pueda determinar si un número
 
 #### -- Correcta ejecución del archivo --
 
-Una vez descargado el archivo titulado *"Ejercicio3_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: ```python3 Ejercicio3_SalamancaDante.py```
+Una vez descargado el archivo titulado *"Ejercicio3_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio3_SalamancaDante.py`
 
 > [!NOTE]
-> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: ```python Ejercicio3_SalamancaDante.py```
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio3_SalamancaDante.py`
 
 #### -- Lógica del programa --
 
@@ -244,6 +244,26 @@ En la *línea 2* se inicializa una función con un parámetro (*n*), que represe
 Una vez creada la función, sólo resta pedirle al usuario / **input** un número (*n*) (*línea 21*); verificar que el número no sea decimal o negativo, pidiendo el número una y otra vez hasta que el usuario ingrese un valor válido (*línea 22* / *línea 23*); y llamar a la función (*Class*), pasándole como parámetro la cifra ingresada (*n*) (*línea 24*).
 
 <a name="PythonWorkshopEjercicio4"></a>
+
+### Ejercicio 4: Generador de contraseñas
+
+#### -- Objetivo --
+
+Crear un programa que genere contraseñas aleatorias con una longitud específica y/o un caracter a forzar y/o un caracter a excluir, valores dados por el usuario.
+
+#### -- Correcta ejecución del archivo --
+
+Una vez descargado el archivo titulado *"Ejercicio4_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio4_SalamancaDante.py`
+
+> [!NOTE]
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio4_SalamancaDante.py`
+
+#### -- Lógica del programa --
+
+En primera instancia, dado que las contraseñas generadas serán aleatorias, deberemos importar / **import** la librería **random**, que nos proporciona diversas herramientas de selección aleatoria que serán de gran ayuda en este problema planteado (*línea 2*). A continuación, aplicamos una fórmula de clasificador de números similar a la usada en el anterior ejercicio: si / **if** el número es 0 o 1, retornará / **return** 0 (*línea 4* / *línea 5*); si / **if** el número es 2 o múltiplo de 11, retornará / **return** 1 (*línea 6* / *línea 7*); si no cumple con ninguna de las dos condiciones anteriores / **else** (*línea 8*), si el número es compuesto retornará / **return** 2 (*línea 9* / *línea 10* / *línea 11*), si es primo retornará / **return** 3 (*línea 9* / *línea 12* / *línea 13*).
+
+Por otra parte, se inicializa una nueva función (*Psw*) que, de la mano de la función *Class*, generará la contraseña a partir de una longitud que se le pasará como parámetro (*línea 14*). Dentro de la función, se definen tres listas (*sc* / *abc* / *ABC*) que contienen caracteres especiales, letras minúsculas y letras mayúsculas, respectivamente; además de nuestra contraseña, que se declarará inicialmente como un **string** vacío ("") (*línea 15* a la *línea 18*).
+
 <a name="PythonWorkshopEjercicio5"></a>
 <a name="Sección15"></a>
 <a name="Sección16"></a>
