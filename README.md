@@ -249,7 +249,7 @@ Una vez creada la función, sólo resta pedirle al usuario / **input** un númer
 
 #### -- Objetivo --
 
-Crear un programa que genere contraseñas aleatorias con una longitud específica y/o un caracter a forzar y/o un caracter a excluir, valores dados por el usuario.
+Crear un programa que genere contraseñas aleatorias con una longitud específica y/o un carácter a forzar y/o un carácter a excluir, valores dados por el usuario.
 
 #### -- Correcta ejecución del archivo --
 
@@ -262,8 +262,13 @@ Una vez descargado el archivo titulado *"Ejercicio4_SalamancaDante.py"*, se debe
 
 En primera instancia, dado que las contraseñas generadas serán aleatorias, deberemos importar / **import** la librería **random**, que nos proporciona diversas herramientas de selección aleatoria que serán de gran ayuda en este problema planteado (*línea 2*). A continuación, aplicamos una fórmula de clasificador de números similar a la usada en el anterior ejercicio: si / **if** el número es 0 o 1, retornará / **return** 0 (*línea 4* / *línea 5*); si / **if** el número es 2 o múltiplo de 11, retornará / **return** 1 (*línea 6* / *línea 7*); si no cumple con ninguna de las dos condiciones anteriores / **else** (*línea 8*), si el número es compuesto retornará / **return** 2 (*línea 9* / *línea 10* / *línea 11*), si es primo retornará / **return** 3 (*línea 9* / *línea 12* / *línea 13*).
 
-Por otra parte, se inicializa una nueva función (*Psw*) que, de la mano de la función *Class*, generará la contraseña a partir de una longitud que se le pasará como parámetro (*línea 14*). Dentro de la función, se definen tres listas (*sc* / *abc* / *ABC*) que contienen caracteres especiales, letras minúsculas y letras mayúsculas, respectivamente; además de nuestra contraseña, que se declarará inicialmente como un **string** vacío ("") (*línea 15* a la *línea 18*).
+Por otra parte, se inicializa una nueva función (*Psw*) que, de la mano de la función *Class*, generará la contraseña a partir de una longitud que se le pasará como parámetro (*línea 14*). Dentro de la función, se definen tres listas (*sc* / *abc* / *ABC*) que contienen caracteres especiales, letras minúsculas y letras mayúsculas, respectivamente; además de nuestra contraseña, que se declarará inicialmente como un **string** vacío ("") (*línea 15* a la *línea 18*). Comenzando un bucle **for** que recorrerá los números del 0 al predecesor de la longitud pasada como parámetro (*línea 19*), verificará en cada momento si / **if** el incrementador pertenece a la clase 0, 1, 2 o 3 (definidas por la funcón *Class*): si / **if** pertenece a la clase 0, se le añadirá a la variable *psw* una letra mayúscula aleatoria de la lista *ABC* (mediante la función **choice** de la librería **random**) (*línea 20* / *línea 21*); si / **elif** pertenece a la clase 1, se le añadirá un carácter especial aleatorio de la lista *sc* (*línea 22* / *línea 23*); si / **elif** pertenece a la clase 2, se le añadirá un dígito aleatorio mediante la función **randint** de la librería **random** (*línea 24* / *línea 25*); caso contrario / **else** (es decir, si pertenece a la clase 3) se le añadirá una letra minúscula aleatoria de la lista *abc* (*línea 26* / *línea 27*).
+
+Una vez el programa crea la función, le pide al usuario / **input** la longitud deseada para su contraseña (*lgth*) (*línea 29*), corroborando que esta última no sea menor a 8 o decimal (*línea 30* / *línea 31*). Solicita / **input** también un carácter que el usuario quiera forzar (*force*) y/o uno que quiera excluir (*exclude*) de la contraseña (*línea 32* / *línea 35*), asegurándose que la entrada sea de longitud 1 o 0 (es decir, que el usuario sólo haya ingresado un carácter o ninguno y no varios) (*línea 33* / *línea 34* / *línea 36* / *línea 37*). Finalmente, la función *Psw* genera la contraseña una vez en la *línea 38*, pasándole como parámetro la longitud requerida por el usuario (*lgth*) para luego verificar, mediante las funcionalidades **in** y **not** de python, si *force* o *exclude* existen dentro de la cadena de texto *psw* (*línea 39*): si *force* no existe o *exclude* sí, la contraseña se generará nuevamente hasta que *force* exista y *exclude* no exista (*línea 40*); imprimiendo / **print** en la *línea 41* la contraseña definitiva.
 
 <a name="PythonWorkshopEjercicio5"></a>
+
+
+
 <a name="Sección15"></a>
 <a name="Sección16"></a>
