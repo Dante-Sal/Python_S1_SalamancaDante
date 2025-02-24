@@ -268,7 +268,21 @@ Una vez el programa crea la función, le pide al usuario / **input** la longitud
 
 <a name="PythonWorkshopEjercicio5"></a>
 
+### Ejercicio 5: Detector de palíndromos
 
+#### -- Objetivo --
 
-<a name="Sección15"></a>
-<a name="Sección16"></a>
+Crear un programa que detecte si una cadena de texto cualquiera es un palíndromo o no, ignorando espacios u otros caracteres especiales, además del guion bajo (_).
+
+#### -- Correcta ejecución del archivo --
+
+Una vez descargado el archivo titulado *"Ejercicio5_SalamancaDante.py"*, se debe abrir una nueva terminal y acceder al directorio en el que esté alojado el archivo (a través del comando **cd**). Para empezar a correr el programa, estando en la ubicación correcta, se deberá ejecutar el comando: `python3 Ejercicio5_SalamancaDante.py`
+
+> [!NOTE]
+> Si el programa no se ejecuta con este comando, pruebe a ejecutarlo con: `python Ejercicio5_SalamancaDante.py`
+
+#### -- Lógica del programa --
+
+En primera instancia, dado que se tendrán que diferenciar fácilmente los caracteres alfanuméricos de los no alfanuméricos, deberemos importar / **import** la librería **re**, que nos proporciona diversas herramientas de análisis de cadenas de texto mediante expresiones regulares que serán de gran ayuda en este problema planteado (*línea 2*). En seguida se crea una nueva función *Format*, cuyo papel será el de eliminar los caracteres especiales y guiones bajos de la cadena ingresada por el usuario (que se le proporcionará como parámetro) (*línea 3*). La primer modificación que la función le efectuará al **string** será transformar todas sus letras en minúsculas con el método **lower** (*línea 4*); luego se suprimirán los caracteres no alfanuméricos y el guion bajo, a través de la función **sub** de la librería **re** (en primer lugar se identifica lo que se desea reemplazar [caracteres no alfanuméricos y guiones bajos: *"\W|_"*], a continuación se indica la cadena con la que se desea intercambiar las coincidencias dentro del **string** [*""*] y en un último momento, se le aclara a python en qué cadena se requiere realizar dichos cambios [en este caso, en la variable *txt*]) (*línea 5*); finalmente, de la mano del método **replace**, se detectan las vocales con tilde y la "Ü", permutándolas con sus variantes sin tilde o diéresis (*línea 6* / *línea 7* / *línea 8*).
+
+Una nueva función llamada *Rev* declarada en la *línea 10* cumplirá el propósito de invertir la cadena pasada por el usuario (para luego comparar la original con su versión revertida a través de la función *Pld* definida en la *línea 16*). Por un lado se generará una nueva variable (*rvTxt*), que contendrá un **string** vacío ("") (*línea 11*); por otro lado se le aplicará el formato proporcionado por la función *Format* a la cadena *txt* (*línea 12*), para luego iniciar un bucle **for** que recorrerá cada una de las letras de la cadena ingresada, agregando al final del **string** *rvTxt* la letra actual en cada iteración (escribiendo de esa manera, el mismo texto en reversa) (*línea 13* / *línea 14*). La función *Pld*, a su vez, hará uso de la función *Rev* para comparar *txt* con *rvTxt* y observar si / **if** son iguales (caso en el cuál la frase sería un palíndromo) (*línea 17* / *línea 18*) o diferentes (caso en el cuál la frase no sería un palíndromo) (*línea 19* / *línea 20*). En última instancia, se le pide al usuario / **input** la frase *phr* (*línea 21*) y se llama a la función *Pld*, dándole a *phr* como parámetro (*línea 22*).
