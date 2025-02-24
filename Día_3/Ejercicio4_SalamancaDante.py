@@ -30,10 +30,10 @@ lgth=float(input("Type the length of the password: --- "))
 while lgth<8 or int(lgth)!=lgth:
     lgth=float(input("ERROR: Invalid Input, please try again...\nType the length of the password: --- "))
 force=input("Type a character that you want to force in the password: --- ")
-while len(force)!=1:
+while len(force)!=1 and len(force)!=0:
     force=input("ERROR: Invalid Input, please try again...\nType a character that you want to force in the password: --- ")
 exclude=input("Type a character that you want to exclude from the password: --- ")
-while len(exclude)!=1:
+while len(exclude)!=1 and len(exclude)!=0:
     exclude=input("ERROR: Invalid Input, please try again...\nType a character that you want to force in the password: --- ")
 psw=Psw(int(lgth))
 while not(force in psw) or (exclude in psw):
